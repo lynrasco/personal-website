@@ -185,6 +185,12 @@ header.sticky{
     max-width: 460px;
 }
 
+.seneca-logo {
+    width: 180px;
+    height: auto;
+    object-fit: contain;
+}
+
 .main-text{
     text-align: center;
 }
@@ -534,7 +540,6 @@ img{
     box-shadow: 0 12px 30px rgba(124, 171, 229, 0.18);
 }
 
-/* Icon container */
 .tech_img {
     width: 85px;
     height: 85px;
@@ -551,7 +556,6 @@ img{
     transition: all 0.3s ease;
 }
 
-/* Actual programming icon */
 .skill-icon {
     width: 55px;
     height: 55px;
@@ -569,7 +573,6 @@ img{
     transform: scale(1.12);
 }
 
-/* Language name */
 .skill-title h3 {
     color: var(--text-color);
     font-family: var(--heading-font);
