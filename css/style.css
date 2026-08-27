@@ -46,6 +46,7 @@ h1, h2, h3, h4, h5, h6,
 .logo {
     font-family: var(--heading-font);
 }
+
 header{
     position: fixed;
     right: 0;
@@ -60,6 +61,7 @@ header{
     border-bottom: 1px solid transparent;
     transition: all .40s ease;
 }
+
 .navbar{
     display: flex;
 }
@@ -717,4 +719,30 @@ img{
     .project-image {
         margin-bottom: 2rem;
     }
+}
+
+.tech-list {
+    max-width: 900px;
+    margin: 3rem auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.tech-list span {
+    color: var(--text-color);
+    background: var(--card-color);
+    border: 1px solid var(--border-color);
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: .3s ease;
+}
+
+.tech-list span:hover {
+    transform: translateY(-4px);
+    border-color: var(--main-color);
+    box-shadow: 0 10px 25px rgba(108,159,232,.15);
 }
