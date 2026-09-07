@@ -1,34 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Guardi App | Lyndsey's Portfolio</title>
 
     <link rel="stylesheet" href="../css/style.css">
 
-    <link rel="stylesheet"
-        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
 
-    <section class="project-detail">
+    <main class="project-detail">
+
 
         <a href="../index.html" class="back-button">
-            <i class='bx bx-arrow-back'></i>
-            Back to Portfolio
+            ← Back to Portfolio
         </a>
 
-        <div class="project-header">
+
+
+        <header class="project-header">
+
             <p class="project-category">
-                Mobile Application • WEB530 • Team Project
+                MOBILE APPLICATION • WEB530 • TEAM PROJECT
             </p>
 
             <h1>Guardi</h1>
@@ -44,137 +47,150 @@
             </p>
 
             <div class="project-buttons">
-                <a href="https://github.com/lynrasco/guardi-seneca"
-                class="btn"
-                target="_blank"
-                rel="noopener noreferrer">
-                <i class='bx bxl-github'></i>
-                View GitHub
+
+                <a
+                    href="https://github.com/lynrasco/guardi-seneca"
+                    class="btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    View GitHub
                 </a>
+
             </div>
-        </div>
+
+        </header>
+
+
 
         <div class="project-meta">
             <div>
-                <i class='bx bx-group'></i>
+                <strong>01</strong>
                 <span>4 Person Team</span>
             </div>
 
             <div>
-                <i class='bx bx-mobile'></i>
+                <strong>02</strong>
                 <span>Mobile + Web</span>
             </div>
 
-    <div>
-        <i class='bx bx-data'></i>
-        <span>Real-time Firebase</span>
-    </div>
+            <div>
+                <strong>03</strong>
+                <span>Real-time Firebase</span>
+            </div>
 
-    <div>
-        <i class='bx bx-test-tube'></i>
-        <span>Automated Tests</span>
-    </div>
+            <div>
+                <strong>04</strong>
+                <span>Automated Tests</span>
+            </div>
 
-</div>
-
-        <br>
-
-
-        <img src="../img/guardi_logo.png"
-             alt="Guardi App"
-             class="project-image">
-
-        <div class="project-section workflow-section">
-
-    <h2>
-        <i class='bx bx-git-branch'></i>
-        How Guardi Works
-    </h2>
-
-    <div class="workflow">
-
-        <div class="workflow-step">
-            <span>01</span>
-            <i class='bx bx-map'></i>
-            <h3>Plan</h3>
-            <p>
-                The walker selects a destination,
-                adds optional stops, and reviews their route.
-            </p>
         </div>
 
-        <div class="workflow-step">
-            <span>02</span>
-            <i class='bx bx-play'></i>
-            <h3>Start</h3>
-            <p>
-                The trip is confirmed and monitoring
-                begins.
-            </p>
+
+        <div class="project-visual">
+
+            <img
+                src="../img/guardi_logo.png"
+                alt="Guardi application logo"
+                class="project-image"
+            >
+
         </div>
 
-        <div class="workflow-step">
-            <span>03</span>
-            <i class='bx bx-current-location'></i>
-            <h3>Monitor</h3>
-            <p>
-                Location and trip status are synchronized
-                with the operator dashboard.
-            </p>
-        </div>
+        <section class="project-section workflow-section">
 
-        <div class="workflow-step">
-            <span>04</span>
-            <i class='bx bx-error'></i>
-            <h3>Respond</h3>
-            <p>
-                SOS, off-route, stopped movement, or
-                missed check-ins can trigger an alert.
-            </p>
-        </div>
+            <div class="section-intro">
 
-        <div class="workflow-step">
-            <span>05</span>
-            <i class='bx bx-check-circle'></i>
-            <h3>Finish</h3>
-            <p>
-                The walker taps "I'm Safe" to end
-                the monitoring session.
-            </p>
-        </div>
+                <p class="section-label">
+                    USER JOURNEY
+                </p>
 
-    </div>
+                <h2>How Guardi Works</h2>
 
-</div>
+                <p>
+                    Guardi guides a walker through a monitored journey,
+                    from planning their route to safely completing their trip.
+                </p>
+
+            </div>
 
 
+            <div class="workflow">
+                <div class="workflow-step">
+                    <span class="workflow-number">01</span>
+                    <h3>Plan</h3>
+                    <p>
+                        The walker selects a destination, adds optional
+                        stops, and reviews their route.
+                    </p>
+                </div>
 
-<div class="project-section">
 
-    <p class="section-label">MONITORING</p>
+                <div class="workflow-step">
+                    <span class="workflow-number">02</span>
+                    <h3>Start</h3>
+                    <p>
+                        The trip is confirmed and safety monitoring begins.
+                    </p>
+                </div>
 
-    <h2>Operator Dashboard</h2>
 
-    <p>
-        Guardi includes a web-based operator dashboard that allows
-        monitoring staff to view active walkers and follow their
-        current location in real time.
-    </p>
+                <div class="workflow-step">
 
-    <p>
-        When a safety alert is triggered, the selected walker's
-        status is immediately reflected on the dashboard, allowing
-        the operator to respond to the situation.
-    </p>
+                    <span class="workflow-number">03</span>
 
-</div>
+                    <h3>Monitor</h3>
+
+                    <p>
+                        Location and trip status are synchronized with
+                        the operator dashboard.
+                    </p>
+
+                </div>
+
+
+                <div class="workflow-step">
+
+                    <span class="workflow-number">04</span>
+
+                    <h3>Respond</h3>
+
+                    <p>
+                        SOS, off-route movement, stopped movement, or
+                        missed check-ins can trigger an alert.
+                    </p>
+
+                </div>
+
+
+                <div class="workflow-step">
+
+                    <span class="workflow-number">05</span>
+
+                    <h3>Finish</h3>
+
+                    <p>
+                        The walker taps "I'm Safe" to end the monitoring
+                        session.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
 
         <div class="project-info">
 
+            <section class="project-section">
 
-            <div class="project-section">
+                <p class="section-label">
+                    OVERVIEW
+                </p>
 
-                <h2>Overview</h2>
+                <h2>What is Guardi?</h2>
 
                 <p>
                     Guardi is a safety companion application designed
@@ -188,82 +204,38 @@
                     while they travel.
                 </p>
 
-            </div>
-
-            <div class="project-section safety-section">
-
-    <div class="section-heading">
-        <p>SAFETY SYSTEM</p>
-        <h2>Designed around four safety triggers</h2>
-    </div>
-
-    <p>
-        Guardi continuously monitors an active trip for situations
-        that may require attention. Four safety triggers can initiate
-        an alert and escalate the situation to the monitoring operator.
-    </p>
-
-    <div class="feature-grid">
-
-        <div class="feature-card">
-            <span class="feature-number">01</span>
-            <h3>SOS</h3>
-            <p>
-                The walker can manually trigger an emergency alert
-                when immediate assistance is needed.
-            </p>
-        </div>
-
-        <div class="feature-card">
-            <span class="feature-number">02</span>
-            <h3>Off-Route</h3>
-            <p>
-                The system detects when the walker moves away
-                from their planned route.
-            </p>
-        </div>
-
-        <div class="feature-card">
-            <span class="feature-number">03</span>
-            <h3>Stopped Movement</h3>
-            <p>
-                Extended periods without movement can trigger
-                additional monitoring.
-            </p>
-        </div>
-
-        <div class="feature-card">
-            <span class="feature-number">04</span>
-            <h3>Missed Check-In</h3>
-            <p>
-                A missed check-in countdown can escalate the
-                situation to the monitoring operator.
-            </p>
-        </div>
-
-    </div>
-
-</div>
+            </section>
 
 
-            <div class="project-section">
+            <section class="project-section">
 
-                <h2>The Problem</h2>
+                <p class="section-label">
+                    THE PROBLEM
+                </p>
+
+                <h2>Walking alone can feel unsafe.</h2>
 
                 <p>
                     Walking alone can sometimes feel unsafe, especially
                     when travelling at night or in unfamiliar areas.
+                </p>
+
+                <p>
                     We wanted to create an application that could provide
                     users with an additional layer of security while
                     travelling alone.
                 </p>
 
-            </div>
+            </section>
 
 
-            <div class="project-section">
+            <section class="project-section">
 
-                <h2>The Solution</h2>
+                <p class="section-label">
+                    THE SOLUTION
+                </p>
+
+                <h2>A connected safety system.</h2>
 
                 <p>
                     Guardi allows users to create and monitor a trip
@@ -277,212 +249,399 @@
                     users feel more secure during their journey.
                 </p>
 
+            </section>
+
+        </div>
+
+        <section class="project-section safety-section">
+
+            <div class="section-intro">
+
+                <p class="section-label">
+                    SAFETY SYSTEM
+                </p>
+
+                <h2>Designed around four safety triggers.</h2>
+
+                <p>
+                    Guardi continuously monitors an active trip for
+                    situations that may require attention. Four safety
+                    triggers can initiate an alert and escalate the
+                    situation to the monitoring operator.
+                </p>
+
             </div>
 
-            <div class="project-section">
+
+            <div class="feature-grid safety-grid">
+
+                <article class="feature-card">
+
+                    <span class="feature-number">
+                        01
+                    </span>
+
+                    <h3>SOS</h3>
+
+                    <p>
+                        The walker can manually trigger an emergency
+                        alert when immediate assistance is needed.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <span class="feature-number">
+                        02
+                    </span>
+
+                    <h3>Off-Route</h3>
+
+                    <p>
+                        The system detects when the walker moves away
+                        from their planned route.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <span class="feature-number">
+                        03
+                    </span>
+
+                    <h3>Stopped Movement</h3>
+
+                    <p>
+                        Extended periods without movement can trigger
+                        additional monitoring.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <span class="feature-number">
+                        04
+                    </span>
+
+                    <h3>Missed Check-In</h3>
+
+                    <p>
+                        A missed check-in countdown can escalate the
+                        situation to the monitoring operator.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="project-section dashboard-section">
+
+            <p class="section-label">
+                MONITORING
+            </p>
+
+            <h2>Operator Dashboard</h2>
+
+            <div class="dashboard-content">
+
+                <div>
+                    <h3>Real-time trip monitoring</h3>
+
+                    <p>
+                        Guardi includes a web-based operator dashboard
+                        that allows monitoring staff to view active
+                        walkers and follow their current location
+                        in real time.
+                    </p>
+                </div>
+
+
+                <div>
+                    <h3>Alert escalation</h3>
+
+                    <p>
+                        When a safety alert is triggered, the selected
+                        walker's status is immediately reflected on
+                        the dashboard, allowing the operator to
+                        respond to the situation.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="project-section">
+
+            <div class="section-intro">
+
+                <p class="section-label">
+                    FUNCTIONALITY
+                </p>
 
                 <h2>Key Features</h2>
 
-                <div class="feature-grid">
-
-                    <div class="feature-card">
-                        <i class='bx bx-map'></i>
-
-                        <h3>Trip Planning</h3>
-
-                        <p>
-                            Users can create a trip by entering
-                            their starting location and destination.
-                        </p>
-
-                    </div>
-
-
-                    <div class="feature-card">
-                        <i class='bx bx-current-location'></i>
-
-                        <h3>Live Location</h3>
-
-                        <p>
-                            The application tracks the user's
-                            location while their trip is active.
-                        </p>
-
-                    </div>
-
-
-                    <div class="feature-card">
-                        <i class='bx bx-shield-quarter'></i>
-
-                        <h3>Safety Monitoring</h3>
-
-                        <p>
-                            Users can monitor their journey and
-                            receive additional safety support.
-                        </p>
-
-                    </div>
-
-
-                    <div class="feature-card">
-                        <i class='bx bx-error'></i>
-
-                        <h3>Alerts</h3>
-
-                        <p>
-                            The application can respond to situations
-                            that may require additional attention.
-                        </p>
-
-                    </div>
-
-                </div>
-
             </div>
 
 
-            <div class="project-section">
+            <div class="feature-grid">
 
-                <h2>Technologies</h2>
+                <article class="feature-card">
 
-                <div class="technology-list">
+                    <h3>Trip Planning</h3>
 
-    <span>
-        <i class='bx bxl-react'></i>
-        React Native
-    </span>
+                    <p>
+                        Users can create a trip by entering their
+                        starting location and destination.
+                    </p>
 
-    <span>
-        <i class='bx bxl-javascript'></i>
-        JavaScript
-    </span>
+                </article>
 
-    <span>
-        <i class='bx bxl-firebase'></i>
-        Firebase
-    </span>
 
-    <span>
-        <i class='bx bxl-github'></i>
-        GitHub
-    </span>
+                <article class="feature-card">
 
-</div>
+                    <h3>Live Location</h3>
+
+                    <p>
+                        The application tracks the user's location
+                        while their trip is active.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <h3>Safety Monitoring</h3>
+
+                    <p>
+                        Active trips are monitored for events that
+                        may require additional attention.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <h3>Alerts</h3>
+
+                    <p>
+                        The application can respond to safety events
+                        and escalate them to the operator.
+                    </p>
+
+                </article>
 
             </div>
 
+        </section>
 
-            <div class="project-section">
+
+
+        <section class="project-section technologies-section">
+
+            <p class="section-label">
+                DEVELOPMENT
+            </p>
+
+            <h2>Technologies</h2>
+
+            <div class="technology-list">
+
+                <span>React Native</span>
+                <span>JavaScript</span>
+                <span>Firebase</span>
+                <span>GitHub</span>
+
+            </div>
+
+        </section>
+
+
+        <section class="project-section screenshots-section">
+
+            <div class="section-intro">
+
+                <p class="section-label">
+                    APP INTERFACE
+                </p>
 
                 <h2>Project Screenshots</h2>
 
-                <div class="screenshots">
-
-                    <img src="../img/guardi-login.png"
-                         alt="Guardi login screen">
-
-                    <img src="../img/guardi-locationsearch.png"
-                         alt="Guardi location search screen">
-
-                    <img src="../img/guardi-accountsettings.png"
-                         alt="Guardi account settings screen">
-
-                </div>
-
-            </div>
-
-
-            <div class="project-section contribution-section">
-
-    <h2>
-        My Contribution
-    </h2>
-
-    <p>
-        As part of the Guardi team, I focused primarily on the
-        operator dashboard and account lifecycle functionality.
-    </p>
-
-    <div class="contribution-grid">
-
-        <div class="contribution-item">
-            <h3>Operator Dashboard</h3>
-            <p>
-                Developed the dashboard interface used to monitor
-                active walkers and view trip activity.
-            </p>
-        </div>
-
-        <div class="contribution-item">
-            <h3>Trip & Alert Sync</h3>
-            <p>
-                Worked on synchronization services connecting
-                trip and alert information between the application
-                and dashboard.
-            </p>
-        </div>
-
-        <div class="contribution-item">
-            <h3>Operator Escalation</h3>
-            <p>
-                Implemented the operator escalation functionality
-                for situations requiring additional attention.
-            </p>
-        </div>
-
-        <div class="contribution-item">
-            <h3>Account Lifecycle</h3>
-            <p>
-                Implemented account deletion and profile cleanup
-                functionality.
-            </p>
-        </div>
-
-    </div>
-
-</div>
-
-
-            <div class="project-section">
-
-                <h2>What I Learned</h2>
-
                 <p>
-                    Through Guardi, I gained experience developing a
-                    mobile application as part of a team and learned
-                    more about integrating different components of a
-                    software project.
-                </p>
-
-                <p>
-                    The project also helped me improve my understanding
-                    of GitHub, Firebase, mobile development, and
-                    collaborative software development.
+                    A selection of screens from the Guardi mobile
+                    application.
                 </p>
 
             </div>
 
 
-            <div class="project-section project-links">
+            <div class="screenshots">
 
-                <h2>Project Links</h2>
+                <figure>
 
-                <a href="https://github.com/lynrasco/guardi-seneca"
-                   class="btn"
-                   target="_blank"
-                   rel="noopener noreferrer">
+                    <img
+                        src="../img/guardi-login.png"
+                        alt="Guardi login screen"
+                    >
 
-                    <i class='bx bxl-github'></i>
-                    View on GitHub
+                    <figcaption>
+                        <strong>01</strong>
+                        Login
+                    </figcaption>
 
-                </a>
+                </figure>
+
+
+                <figure>
+
+                    <img
+                        src="../img/guardi-locationsearch.png"
+                        alt="Guardi location search and trip planning screen"
+                    >
+
+                    <figcaption>
+                        <strong>02</strong>
+                        Trip Planning
+                    </figcaption>
+
+                </figure>
+
+
+                <figure>
+
+                    <img
+                        src="../img/guardi-accountsettings.png"
+                        alt="Guardi account settings screen"
+                    >
+
+                    <figcaption>
+                        <strong>03</strong>
+                        Account Settings
+                    </figcaption>
+
+                </figure>
+
+            </div>
+
+        </section>
+
+        <section class="project-section contribution-section">
+
+            <div class="section-intro">
+
+                <p class="section-label">
+                    MY ROLE
+                </p>
+
+                <h2>My Contribution</h2>
+
+                <p>
+                    As part of the Guardi team, I focused primarily on
+                    the operator dashboard and account lifecycle
+                    functionality.
+                </p>
 
             </div>
 
 
-        </div>
+            <div class="contribution-grid">
 
-    </section>
+                <article class="contribution-item">
+
+                    <span>01</span>
+
+                    <h3>Operator Dashboard</h3>
+
+                    <p>
+                        Developed the dashboard interface used to
+                        monitor active walkers and view trip activity.
+                    </p>
+
+                </article>
+
+
+                <article class="contribution-item">
+
+                    <span>02</span>
+
+                    <h3>Trip & Alert Sync</h3>
+
+                    <p>
+                        Worked on synchronization services connecting
+                        trip and alert information between the
+                        application and dashboard.
+                    </p>
+
+                </article>
+
+
+                <article class="contribution-item">
+
+                    <span>03</span>
+
+                    <h3>Operator Escalation</h3>
+
+                    <p>
+                        Implemented operator escalation functionality
+                        for situations requiring additional attention.
+                    </p>
+
+                </article>
+
+
+                <article class="contribution-item">
+
+                    <span>04</span>
+
+                    <h3>Account Lifecycle</h3>
+
+                    <p>
+                        Implemented account deletion and profile
+                        cleanup functionality.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="project-section learning-section">
+
+            <p class="section-label">
+                REFLECTION
+            </p>
+
+            <h2>What I Learned</h2>
+
+            <p>
+                Through Guardi, I gained experience developing a
+                mobile application as part of a team and learned
+                more about integrating different components of a
+                software project.
+            </p>
+
+            <p>
+                The project also helped me improve my understanding
+                of GitHub, Firebase, mobile development, and
+                collaborative software development.
+            </p>
+
+        </section>
+
+
+    </main>
 
 </body>
 </html>
